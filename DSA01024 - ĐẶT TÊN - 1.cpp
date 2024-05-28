@@ -21,7 +21,7 @@ void solve(){
     for(int i = 1; i <= k; i++){
         cout << v[c[i]] << " ";
     }cout << endl;
-    while(1){
+    while(1){ 
         int pos = k;
         while(c[pos] == size - k + pos && pos > 0){
             pos--;
