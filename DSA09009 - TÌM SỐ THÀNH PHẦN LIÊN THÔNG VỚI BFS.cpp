@@ -16,7 +16,7 @@ void DFS(int u){
             DFS(v);
         }
     }
-}
+} 
 
 int dem(){
     int d = 0;
