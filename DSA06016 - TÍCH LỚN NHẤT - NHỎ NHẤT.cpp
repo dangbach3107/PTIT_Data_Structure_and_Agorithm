@@ -5,7 +5,7 @@
 using namespace std;
 
 void solve() {
-    int n, m; cin >> n>> m;
+    int n, m; cin >> n>> m; 
     vector <int> a(n), b(m);
     for(auto &x : a) cin >> x;
     for(auto &x : b) cin >> x;
