@@ -8,7 +8,7 @@ using namespace std;
 bool check(string a, int k){
     int dem = 0;
     for(auto x : a){
-        if(x == '1') dem++;
+        if(x == '1') dem++; 
     }
     return k == dem;
 }
