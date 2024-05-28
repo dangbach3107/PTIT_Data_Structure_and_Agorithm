@@ -10,7 +10,7 @@ void solve(){
     string s;
     int size = 0;
     while(getline(cin , s)){
-        if(s[0] == 's'){
+        if(s[0] == 's'){ 
             if(size > 0){
                 for(int i = 0; i < size; i++){
                     cout << st[i] << " ";
