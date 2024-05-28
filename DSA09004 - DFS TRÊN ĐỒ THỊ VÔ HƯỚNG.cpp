@@ -13,7 +13,7 @@ void DFS(int u){
             DFS(v);
 }
 
-int main(){
+int main(){ 
     int t; cin >> t;
     while(t--){
         cin >> n >> m >> u;
