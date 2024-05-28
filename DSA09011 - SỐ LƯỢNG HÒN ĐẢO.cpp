@@ -19,7 +19,7 @@ void dfs(int i, int j){
         }
     }
 }
-
+ 
 void solve(){
     int n, m; cin >> n  >> m;
     memset(a, 0, sizeof(a));
