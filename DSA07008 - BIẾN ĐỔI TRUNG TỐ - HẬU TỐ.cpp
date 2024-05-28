@@ -11,7 +11,7 @@ int priority(char c){
 
 int main(){
 	int t; cin >> t;
-	while(t--){
+	while(t--){ 
 		string s;cin >> s;
 		stack <char> st;
 		for(int i = 0 ; i < s.size(); i++){
