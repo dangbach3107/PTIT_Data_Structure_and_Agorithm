@@ -9,7 +9,7 @@ int n, k, check;
 int a[105], b[105];
 
 void in(){
-    vector<int> v;
+    vector<int> v; 
     for(int i = 1; i <=n ; i++){
         if(b[i]) v.push_back(a[i]);
     }
