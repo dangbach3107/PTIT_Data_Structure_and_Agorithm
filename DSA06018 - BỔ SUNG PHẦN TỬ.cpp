@@ -7,7 +7,7 @@ using namespace std;
 void solve() {
     int n; cin >> n;
     set <int> s;
-    while(n--){
+    while(n--){ 
         int x; cin >> x;
         s.insert(x);
     }
