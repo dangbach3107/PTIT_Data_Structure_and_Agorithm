@@ -14,7 +14,7 @@ void init(){
 }
 
 int Find(int u){
-    if(u != parent[u])
+    if(u != parent[u]) 
         parent[u] = Find(parent[u]);
     return parent[u];
 }
