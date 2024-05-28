@@ -6,7 +6,7 @@ int priority(char c){
 	if(c == '^') return 3;
 	if(c == '*' || c == '/') return 2;
 	if(c == '+' || c == '-') return 1;
-	return 0;
+	return 0; 
 }
 
 int main(){
