@@ -15,7 +15,7 @@ void solve(){
             st.pop();
             if(tmp == '(') {
                 cout << "Yes";
-                return;
+                return; 
             }
             else{
                 while(st.top() != '(' && st.size()) st.pop();
