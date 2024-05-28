@@ -3,7 +3,7 @@ using namespace std;
 
 void solve(){
 	int n; cin >> n;
-	int a[n], r[n];
+	int a[n], r[n]; 
 	for(auto &x : a) cin >> x;
 	stack<int> st;
 
