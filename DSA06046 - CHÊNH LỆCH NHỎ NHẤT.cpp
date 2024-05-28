@@ -10,7 +10,7 @@ void solve(){
     vector<int> v(n);
     for(auto &x : v){
         cin >> x;
-    }
+    } 
     sort(begin(v), end(v));
     set<int> s;
     for(int i = 1; i < n; i++){
