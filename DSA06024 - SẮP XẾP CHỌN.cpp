@@ -8,7 +8,7 @@ bool check(vector <int> v){
     for(int i = 0; i < v.size() / 2; i++){
         if(v[i] != v[v.size() - 1 - i]) return 0;
     }
-    return 1;
+    return 1; 
 }
 
 int main() {
