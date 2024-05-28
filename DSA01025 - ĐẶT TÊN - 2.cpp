@@ -9,7 +9,7 @@ void solve(){
     int n, k; cin >> n >> k;
     vector<int> c(k + 1);
     for(int i = 1; i < k + 1; i++){
-        c[i] = i;
+        c[i] = i; 
     }
     for(int i = 1; i <= k; i++){
         cout << char('A' - 1 + i) ;
