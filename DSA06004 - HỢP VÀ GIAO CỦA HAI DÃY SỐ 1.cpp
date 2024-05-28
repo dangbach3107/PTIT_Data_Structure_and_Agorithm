@@ -6,7 +6,7 @@ using namespace std;
 
 void solve(){
     int n, m; cin >> n >> m;
-    set <int> a, b;
+    set <int> a, b; 
     f0(i, n){
         int x; cin >> x;
         a.insert(x);
