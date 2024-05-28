@@ -8,7 +8,7 @@ void solve(){
 	map <char, int> m;
 	for(auto x :s) m[x]++;
 	priority_queue<int, vector<int>> q;
-	for(auto x : m){
+	for(auto x : m){ 
 		q.push(x.second);
 	}
 	while(k--){
