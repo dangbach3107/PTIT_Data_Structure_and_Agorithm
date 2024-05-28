@@ -8,7 +8,7 @@ void solve() {
     int n, m; cin >> n>> m;
     vector <int> v(n + m);
     for(auto &x : v) cin >> x;
-    sort(begin(v), end(v));
+    sort(begin(v), end(v)); 
     for(auto x : v) cout << x << " " ;
     cout << endl;
 }
