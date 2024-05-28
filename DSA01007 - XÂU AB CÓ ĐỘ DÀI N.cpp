@@ -7,7 +7,7 @@ using namespace std;
 
 void solve(){
     int n; cin >> n;
-    string s = "";
+    string s = ""; 
     for(int  i = 1; i <=n; i++){
         s += "A";
     }
