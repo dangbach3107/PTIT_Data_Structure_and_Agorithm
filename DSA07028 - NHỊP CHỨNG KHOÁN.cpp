@@ -6,7 +6,7 @@ void solve(){
 	int a[n + 1];
 	for(int i = 1; i <= n; i++) cin >> a[i];
 	stack<int> st;
-	for(int i = 1; i <= n; i++){
+	for(int i = 1; i <= n; i++){ 
 		while(!st.empty() && a[st.top()] <= a[i]){
 			st.pop();
 		}
