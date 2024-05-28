@@ -12,7 +12,7 @@ void solve(){
     for(int x : a) if(x != m) cout << x << " ";
 }
 
-int main(){
+int main(){ 
     //read
     int t = 1;
     //cin >> t;
