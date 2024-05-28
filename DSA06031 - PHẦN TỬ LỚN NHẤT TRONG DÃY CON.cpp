@@ -9,7 +9,7 @@ void solve(){
     int k; cin >> k;
     vector <int> a(n);
     for(auto &x : a) cin >> x;
-    multiset<int> ms;
+    multiset<int> ms; 
     for(int i = 0; i < k; i++){
         ms.insert(a[i]);
     }
