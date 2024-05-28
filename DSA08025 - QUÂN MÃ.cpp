@@ -7,7 +7,7 @@ int dy[8] = {1, -1, 1, -1, 2, -2, 2, -2};
 
 bool isValid(int x, int y){
 	return x > 0 && x < 9 && y > 0 && y < 9;
-}
+} 
 
 void solve(){
 	string a, b; cin >> a >> b;
