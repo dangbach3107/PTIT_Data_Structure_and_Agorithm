@@ -7,7 +7,7 @@ using namespace std;
 
 void solve(){
     string s; cin >> s;
-    int pos = s.size() - 1;
+    int pos = s.size() - 1; 
     while(s[pos] == '0' && pos > -1){
         pos--;
     }
