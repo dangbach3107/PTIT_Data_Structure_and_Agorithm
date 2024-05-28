@@ -12,7 +12,7 @@ void solve(){
         if(binary_search(begin(v), end(v), x) == 0)
             v.push_back(x);
     }
-    for(auto x : v) cout << x << " ";
+    for(auto x : v) cout << x << " "; 
 }
 
 int main(){
