@@ -19,7 +19,7 @@ void dfsTree(int u){
 		for(int x : adj[tmp]){
 			//cout << 2222;
 			if(!check[x] ){
-				//cout << 1122;
+				//cout << 1122; 
 				v.push_back({tmp, x});
 				check[x] = 1;
 				st.push(tmp);
