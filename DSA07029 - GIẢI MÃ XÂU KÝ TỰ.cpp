@@ -4,7 +4,7 @@ using namespace std;
 void solve(){
 	string s; cin >> s;
 	stack <string> st;
-
+ 
 	for(char x : s){
 		string tmp(1, x);
 		if(tmp != "]"){
