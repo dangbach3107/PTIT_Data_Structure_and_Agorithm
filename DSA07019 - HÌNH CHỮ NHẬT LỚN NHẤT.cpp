@@ -2,7 +2,7 @@
 using namespace std;
 
 void solve(){
-	int n; cin >> n;
+	int n; cin >> n; 
 	int a[n + 1], l[n + 1], r[n + 1];
 	//cout << 12321;
 	for(int i = 1; i <= n; i++) cin >> a[i];
