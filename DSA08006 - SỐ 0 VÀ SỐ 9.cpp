@@ -9,7 +9,7 @@ int priority(char c){
 	return 0;
 }
 
-int main(){
+int main(){ 
 	int t; cin >> t;
 	while(t--){
 		queue <string> q;
