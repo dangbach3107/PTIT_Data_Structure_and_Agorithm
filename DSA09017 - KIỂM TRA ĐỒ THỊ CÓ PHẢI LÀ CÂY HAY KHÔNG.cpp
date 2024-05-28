@@ -10,7 +10,7 @@ void DFS(int u){
     for(int v : List[u]) 
         if(!check[v])
             DFS(v);
-}
+} 
 
 int main(){
     int t; cin >> t;
