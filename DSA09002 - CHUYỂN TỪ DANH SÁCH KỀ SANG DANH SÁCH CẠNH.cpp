@@ -11,7 +11,7 @@ void solve(){
     string s;
     f1(i, n){
         getline(cin , s);
-        stringstream ss(s);
+        stringstream ss(s); 
         int token;
         while(ss >> token){
             g[i][token] = g[token][i] = 1;
