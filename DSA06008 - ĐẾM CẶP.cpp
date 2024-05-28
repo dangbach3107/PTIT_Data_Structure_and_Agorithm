@@ -8,7 +8,7 @@ int count(int x, int y[], int n, int a[]){
 	int it = upper_bound(y, y + n, x) - y;
 	int ans = n - it;
 	ans += (a[0] + a[1]);
-	if (x == 2)
+	if (x == 2) 
 		ans -= (a[3] + a[4]);
 	if (x == 3)
 		ans += a[2];
