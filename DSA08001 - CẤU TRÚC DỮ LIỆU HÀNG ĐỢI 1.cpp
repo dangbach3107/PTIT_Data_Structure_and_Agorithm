@@ -5,7 +5,7 @@
 #define ll long long
 using namespace std;
 void solve(){
-    int t; cin >> t;
+    int t; cin >> t; 
     queue <int> q;
     while(t--){
         int x; cin >> x;
