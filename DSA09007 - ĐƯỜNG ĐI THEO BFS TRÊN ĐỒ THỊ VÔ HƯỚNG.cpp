@@ -16,7 +16,7 @@ void DFS(int u){
             truoc[v] = u;
             DFS(v);
         }
-    }
+    } 
 }
 
 void BFS(int u){
