@@ -16,7 +16,7 @@ void BFS(int u){
     cout << u << " ";
     while(!q.empty()){
         int tmp = q.front();
-        q.pop();
+        q.pop(); 
         for(int v = 1; v <= n; v++){
             if(!check[v] && g[tmp][v]){
                 cout << v << " ";
