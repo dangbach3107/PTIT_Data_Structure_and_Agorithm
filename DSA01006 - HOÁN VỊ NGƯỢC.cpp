@@ -6,7 +6,7 @@
 using namespace std;
 
 void solve(){
-    int n; cin >> n;
+    int n; cin >> n; 
     string s = "";
     for(int  i = 1; i <=n; i++){
         s += to_string(i);
