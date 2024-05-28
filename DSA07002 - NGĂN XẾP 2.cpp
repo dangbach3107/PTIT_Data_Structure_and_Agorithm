@@ -8,7 +8,7 @@ using namespace std;
 void solve(){
     stack <string> st;
     string s; int n; cin >> n;
-    cin.ignore();
+    cin.ignore(); 
     int size = 0;
     while(n--){
         getline(cin, s);
