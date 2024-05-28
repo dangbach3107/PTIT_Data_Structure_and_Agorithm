@@ -6,7 +6,7 @@
 using namespace std;
 void solve(){
     string n; cin >> n;
-    queue <string> q;
+    queue <string> q; 
     q.push("1");
     int dem = 0;
     while(1){
