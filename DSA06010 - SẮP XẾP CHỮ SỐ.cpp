@@ -8,7 +8,7 @@ void solve(){
     int n; cin >> n;
     set <int> s;
     while(n--){
-    	int x; cin >> x;
+    	int x; cin >> x; 
     	while(x){
     		s.insert(x % 10);
     		x /= 10;
