@@ -7,7 +7,7 @@ using namespace std;
 
 void solve(){
     int n, k; cin >> n >> k;
-    vector <int> a(k);
+    vector <int> a(k); 
     for(auto &x : a) cin >> x;
     int pos = k - 1;
     while(a[pos] == n - k + pos + 1){
