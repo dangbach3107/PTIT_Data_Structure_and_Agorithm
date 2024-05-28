@@ -9,7 +9,7 @@ int n;
 vector<int> a, b;
 vector<vector<int>> res;
 void in(vector<int> a){
-    cout << "[";
+    cout << "["; 
     for(int i = 0; i < a.size(); i++){
         cout << a[i];
         if(i != a.size() - 1) cout << " ";
