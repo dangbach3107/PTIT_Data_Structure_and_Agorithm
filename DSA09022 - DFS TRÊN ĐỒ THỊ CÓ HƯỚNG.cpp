@@ -13,7 +13,7 @@ void DFS(int u){
     stack <int> s;
     s.push(u);
     check[u] = 1;
-    cout << u << " ";
+    cout << u << " "; 
     while(!s.empty()){
         int tmp = s.top();
         s.pop();
