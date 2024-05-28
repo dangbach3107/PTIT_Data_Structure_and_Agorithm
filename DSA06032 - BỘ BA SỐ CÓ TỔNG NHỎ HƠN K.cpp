@@ -8,7 +8,7 @@ using namespace std;
 void solve(){
     int n; cin >> n;
     int k; cin >> k;
-    vector <ll> a(n);
+    vector <ll> a(n); 
     for(auto &x : a) cin >> x;
     sort(begin(a), end(a));
     ll cnt = 0;
