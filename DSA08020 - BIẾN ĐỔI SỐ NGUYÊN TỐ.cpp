@@ -7,7 +7,7 @@ bool sieve[10000] ;
 void init(){
 	sieve[0] = sieve[1] = 1;
 	for(int i = 2; i * i <= 10000; i++){
-		if(sieve[i] == 0){
+		if(sieve[i] == 0){ 
 			for(int j = i * i; j < 10000; j+= i){
 				sieve[j] = 1;
 			}
