@@ -9,7 +9,7 @@ void solve(){
     int n; cin >> n;
     vector<ll> v(n);
     for(auto &x : v){
-        cin >> x;
+        cin >> x; 
     }
     sort(begin(v) , end(v));
     for(int i = 0; i < n - 2; i++){
