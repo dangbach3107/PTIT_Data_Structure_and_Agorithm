@@ -9,7 +9,7 @@ void solve(){
     set <int> a, b;
     f0(i, n){
         int x; cin >> x;
-        a.insert(x);
+        a.insert(x); 
     }
     f0(i, m){
         int x; cin >> x;
