@@ -10,7 +10,7 @@ void solve(){
     for(auto &x : a) cin >> x ;
     sort(a, a + n);
     long long cnt = 0;
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; i++){ 
         cnt += upper_bound(a + i + 1, a + n, k - a[i]) - lower_bound(a + i + 1, a + n, k - a[i]);
     }
     cout << cnt << endl;
