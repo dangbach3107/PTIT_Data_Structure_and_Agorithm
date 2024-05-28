@@ -10,7 +10,7 @@ void solve(){
     cin >> n;
     q.push("1");
     while(n--){
-        string s = q.front();
+        string s = q.front(); 
         q.pop();
         cout << s << " ";
         q.push(s + "0");
