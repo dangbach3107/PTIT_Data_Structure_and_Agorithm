@@ -15,7 +15,7 @@ void DFS(int u){
         if(g[u][v] && !check[v]){
             truoc[v] = u;
             DFS(v);
-        }
+        } 
     }
 }
 
