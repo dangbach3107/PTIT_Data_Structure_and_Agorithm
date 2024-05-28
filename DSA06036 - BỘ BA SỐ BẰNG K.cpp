@@ -7,7 +7,7 @@ using namespace std;
 void solve(){
     int n; cin >> n;int k ;cin >> k;
     int a[n];
-    for(auto &x : a) cin >> x ; sort(a, a + n);
+    for(auto &x : a) cin >> x ; sort(a, a + n); 
     for(int i = 0 ; i < n - 2; i ++){
         for(int j = i + 1; j < n - 1; j++){
             if(binary_search(a + j + 1, a + n, k - a[i] - a[j])) {
