@@ -4,7 +4,7 @@ using namespace std;
 
 void solve(){
 	int s, t; cin >> s >> t;
-	queue<pair<int, int>> q;
+	queue<pair<int, int>> q; 
 	set <int> check;
 
 	q.push({s, 0});
