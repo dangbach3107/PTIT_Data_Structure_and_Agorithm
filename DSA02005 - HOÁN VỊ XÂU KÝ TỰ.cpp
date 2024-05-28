@@ -10,7 +10,7 @@ int a[20], b[20];
 string s;
 
 void Try(int i){
-    for(int j = 1; j <= n; j++){
+    for(int j = 1; j <= n; j++){ 
         if(!b[j]){
             a[i] = j;
             b[j] = 1;
