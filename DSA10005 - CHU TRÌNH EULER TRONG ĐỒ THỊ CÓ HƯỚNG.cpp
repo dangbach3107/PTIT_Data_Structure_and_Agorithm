@@ -7,7 +7,7 @@ using namespace std;
 
 void solve(){
     int n, k;
-    cin >> n >> k;
+    cin >> n >> k; 
     vector <vector<int>> g(n + 1, vector<int>(n + 1, 0));
     while(k--){
         int x, y;
