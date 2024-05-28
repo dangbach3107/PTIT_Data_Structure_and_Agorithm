@@ -2,7 +2,7 @@
 using namespace std;
 
 void solve(){
-	string s; cin >> s;
+	string s; cin >> s; 
 	stack <string> st;
 	for(int i = 0; i< s.size(); i++){
 		if('A' <= s[i] && 'Z' >= s[i]) st.push(string(1, s[i]));
