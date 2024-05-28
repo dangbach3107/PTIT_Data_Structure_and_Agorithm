@@ -14,7 +14,7 @@ void solve(){
         stringstream ss(s);
         int token;
         while(ss >> token){
-            g[i][token] = g[token][i] = 1;
+            g[i][token] = g[token][i] = 1; 
         }
     }
     f1(i, n){
