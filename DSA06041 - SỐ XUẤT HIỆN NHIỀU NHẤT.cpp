@@ -11,7 +11,7 @@ void solve(){
     map <int , int> mp;
     for(auto &x : v){
         cin >> x;
-         mp[x]++;
+         mp[x]++; 
     }
     for(auto x : mp){
         if(x.second > n / 2){
