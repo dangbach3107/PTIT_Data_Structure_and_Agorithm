@@ -2,7 +2,7 @@
 #define endl "\n"
 using namespace std;
 int n = 8, ans;
-int c1[20], c2[20], c3[20], a[10][10];
+int c1[20], c2[20], c3[20], a[10][10]; 
 void Try(int x, int s)
 {
     if (x == n + 1)
