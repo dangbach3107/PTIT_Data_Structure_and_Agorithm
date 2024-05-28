@@ -12,7 +12,7 @@ vector<int> check;
 void DFS(int u){
     check[u] = 1;
     for(int v = 1; v <= n; v++){
-        if(g[u][v] && !check[v]){
+        if(g[u][v] && !check[v]){ 
             DFS(v);
         }
     }
