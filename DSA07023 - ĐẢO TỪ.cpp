@@ -6,7 +6,7 @@ void solve(){
 	stack <string > st;
 	stringstream ss(s);
 	string token;
-	while(ss >> token){
+	while(ss >> token){ 
 		st.push(token);
 	}
 	while(!st.empty()){
