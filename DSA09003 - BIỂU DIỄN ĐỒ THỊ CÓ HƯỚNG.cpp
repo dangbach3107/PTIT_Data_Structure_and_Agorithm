@@ -13,7 +13,7 @@ void solve(){
         g[x][y] = 1;
     }
     for(int i = 1; i <= n; i++){
-        cout << i << ": ";
+        cout << i << ": "; 
         for(int j = 1; j <= n; j++)
             if(g[i][j]) cout << j <<  " ";
         cout << endl;
