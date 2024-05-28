@@ -7,7 +7,7 @@ void testCase() {
     for (int &i : a) cin >> i;
 
     // bubble sort
-    for (int i = 1; i < n; ++i) {
+    for (int i = 1; i < n; ++i) { 
         bool is_sorted = true;
         for (int j = 0; j < n - i; ++j) {
             if (a[j] > a[j + 1]) {
