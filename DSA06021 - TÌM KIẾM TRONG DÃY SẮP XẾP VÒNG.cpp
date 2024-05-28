@@ -8,7 +8,7 @@ void solve(){
     int n; cin >> n;int k ;cin >> k;
     vector <int> a(n), b;
     for(auto &x : a) cin >> x ;
-    b = a;
+    b = a; 
     sort(b.begin(), b.end());
     int index = upper_bound(b.begin(), b.end(), k) - b.begin();
     int index2 = upper_bound(b.begin(), b.end(), a[0]) - b.begin();
