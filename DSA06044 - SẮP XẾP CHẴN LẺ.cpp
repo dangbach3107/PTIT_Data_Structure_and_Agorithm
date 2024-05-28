@@ -6,7 +6,7 @@
 using namespace std;
 
 void solve(){
-    int n; cin >> n;
+    int n; cin >> n; 
     vector <int> a(n), le, chan;
     for(int i = 0; i < n; i++){ cin >> a[i];
         if((i + 1) & 1) le.push_back(a[i]);
