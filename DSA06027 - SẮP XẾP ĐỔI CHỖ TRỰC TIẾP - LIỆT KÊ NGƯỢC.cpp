@@ -7,7 +7,7 @@ using namespace std;
 void solve(){
     int n; cin >> n;
     vector <int> a(n);
-    for(auto &x : a) cin >> x;
+    for(auto &x : a) cin >> x; 
     vector<vector<int> >v;  int cnt = 0;
     for(int i = 0 ; i < n; i++){
         int check = 1;
