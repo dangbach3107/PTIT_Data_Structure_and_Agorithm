@@ -10,7 +10,7 @@ void dfs(int u){
 	check[u] = 1;
 	for(auto x : adj[u]){
 		if(!check[x]) dfs(x);
-	}
+	} 
 }
 
 bool checkk(int v){
