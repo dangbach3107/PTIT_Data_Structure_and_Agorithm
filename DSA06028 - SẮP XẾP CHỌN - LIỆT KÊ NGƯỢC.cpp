@@ -5,7 +5,7 @@ void testCase() {
     int n; cin >> n;
     vector<int> a(n);
     vector<vector<int>> b;
-    for (int &i : a) cin >> i;
+    for (int &i : a) cin >> i; 
     
     // Selection sort
     for (int i = 0; i < n - 1; ++i) {
