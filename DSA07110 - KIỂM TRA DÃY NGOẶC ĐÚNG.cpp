@@ -5,7 +5,7 @@
 #define ll long long
 using namespace std;
 
-bool check(string s){
+bool check(string s){ 
     stack <char> st;
     for(auto x : s){
         if(x == '[' || x == '{' || x == '(') st.push(x);
