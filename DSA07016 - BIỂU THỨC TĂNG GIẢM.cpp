@@ -6,7 +6,7 @@ void solve(){
     stack <int> st;
     int dem = 1;
     st.push(dem);
-
+ 
     for(auto x : s){
         if(x == 'D'){
             st.push(++dem);
