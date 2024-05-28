@@ -7,7 +7,7 @@ using namespace std;
 void solve(){
     int n; cin >> n;
     int k; cin >> k;
-    int a[n];
+    int a[n]; 
     for(auto &x : a)  cin >> x;
     sort(a,  a + n);
     int dem = 0;
