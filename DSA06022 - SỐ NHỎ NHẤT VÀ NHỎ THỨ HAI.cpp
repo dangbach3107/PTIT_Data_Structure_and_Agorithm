@@ -8,7 +8,7 @@ void solve(){
     int n; cin >> n;
     set <int> s;
     while(n--){
-        int x; cin >> x;
+        int x; cin >> x; 
         s.insert(x);
     }
     if(s.size() < 2) cout << "-1";
