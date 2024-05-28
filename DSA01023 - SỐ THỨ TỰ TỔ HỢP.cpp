@@ -6,7 +6,7 @@
 using namespace std;
 
 int next_combination(vector <int> &a, int n){
-    int pos = a.size() - 1;
+    int pos = a.size() - 1; 
     while(a[pos] == n - a.size() + pos + 1 && pos > -1){
         pos--;
     }
