@@ -10,7 +10,7 @@ bool check(vector <int> v){
     }
     return 1;
 }
-
+ 
 int main() {
     int n; cin >> n;
     for(int i = 0; i < (1 << n); i++){
