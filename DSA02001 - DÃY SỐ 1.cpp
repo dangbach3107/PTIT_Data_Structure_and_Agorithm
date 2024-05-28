@@ -12,7 +12,7 @@ void in(){
     cout << "[";
     for(int i = 0; i < a.size(); i++){
         cout << a[i];
-        if(i != a.size() - 1) cout << " ";
+        if(i != a.size() - 1) cout << " "; 
     }
     cout <<"]\n";
 }
