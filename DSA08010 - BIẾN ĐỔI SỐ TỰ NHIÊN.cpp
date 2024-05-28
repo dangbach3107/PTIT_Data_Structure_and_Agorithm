@@ -4,7 +4,7 @@ using namespace std;
 
 void solve(){
 	int n; cin >> n;
-    queue <pair<int, int>> q;
+    queue <pair<int, int>> q; 
     q.push({n, 0});
 	map <int, int> m;
 	m[n] = 1;
