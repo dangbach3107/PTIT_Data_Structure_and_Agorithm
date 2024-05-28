@@ -10,7 +10,7 @@ int a[20][20];
 vector <string> v;
 
 void Try(int i, int j, string s){
-    if(i == n && j == n){
+    if(i == n && j == n){ 
         v.push_back(s);
         return;
     }
