@@ -9,7 +9,7 @@ int ok, n, m;
 void bfs(int u){
 	queue <pair<int,int>> q;
 	q.push({u, 0});
-	check[u] = 1;
+	check[u] = 1; 
 
 	while(!q.empty()){
 		int tmp1 = q.front().first;
