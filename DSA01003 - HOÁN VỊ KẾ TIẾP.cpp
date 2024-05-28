@@ -8,7 +8,7 @@ int main()
     {
         int n;
         cin >> n;
-        int ok = 0, a[n + 1];
+        int ok = 0, a[n + 1]; 
         for (int i = 1; i <= n; i++)
             cin >> a[i];
         for (int i = n - 1; i >= 1; i--)
