@@ -11,7 +11,7 @@ int dem;
 
 void Try(int i, int j){
     if(i == n && j == m){
-        dem++;
+        dem++; 
         return;
     }
     if(i < n) Try(i + 1, j);
