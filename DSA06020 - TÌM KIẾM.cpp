@@ -12,7 +12,7 @@ void solve() {
     for(auto &x : a) cin >> x;
     if(binary_search(a, a + n, k)) cout << "1\n";
     else cout << "-1\n";
-}
+} 
 
 int main() {
     //read
