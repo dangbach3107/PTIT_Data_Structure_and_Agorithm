@@ -10,7 +10,7 @@ void testCase() {
         int j = i;
         while (j > 0 && a[j] < a[j - 1]) {
             swap(a[j], a[j - 1]);
-            j--;
+            j--; 
         }
 
         cout << "Buoc " + to_string(i) + ": ";
