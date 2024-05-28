@@ -13,7 +13,7 @@ void solve(){
         int x, y;
          cin >> x >> y;
         g[x].push_back(y);
-        g[y].push_back(x);
+        g[y].push_back(x); 
     }
     int odd_edge = 0;
     for(int i = 1; i <= n; i++){
