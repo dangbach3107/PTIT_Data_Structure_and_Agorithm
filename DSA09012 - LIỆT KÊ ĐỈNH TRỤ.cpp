@@ -14,7 +14,7 @@ void DFS(int u, int x, int &dem) {
     dem++;
     for (int v : List[u]) {
         if (!check[v] && (x != v && x != u))
-            DFS(v, x, dem);
+            DFS(v, x, dem); 
     }
 }
 
