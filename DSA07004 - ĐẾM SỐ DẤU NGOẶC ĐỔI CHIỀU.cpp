@@ -10,7 +10,7 @@ void solve(){
     stack <char> st;
     int open = 0, close = 0;
     for(auto x : s){
-        if(x == ')' && st.empty()){
+        if(x == ')' && st.empty()){ 
             close++;
         }
         else if(x == ')' && !st.empty()) {st.pop(); open--;}
