@@ -7,7 +7,7 @@ int main(){
 	while(t--){
 		string s;cin >> s;
 		stack <string> st;
-		for(int i = 0; i < s.size(); i++){
+		for(int i = 0; i < s.size(); i++){ 
 			string tmp = string(1, s[i]);
 			if(tmp == "*" || tmp == "/" || tmp == "+" || tmp == "-"){
 				string x = st.top(); st.pop();
