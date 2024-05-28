@@ -11,7 +11,7 @@ int n, k;
 
 void DFS(int u, int x, int y, int &dem) {
     check[u] = 1;
-    dem++;
+    dem++; 
     for (int v : List[u]) {
         if (!check[v] && !((u == x && v == y) || (u == y && v == x)))
             DFS(v, x, y, dem);
