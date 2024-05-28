@@ -7,7 +7,7 @@ using namespace std;
 
 int n, k, s, t; 
 vector <vector<int>> g;
-vector<int> check, truoc;
+vector<int> check, truoc; 
 
 void DFS(int u){
     check[u] = 1;
