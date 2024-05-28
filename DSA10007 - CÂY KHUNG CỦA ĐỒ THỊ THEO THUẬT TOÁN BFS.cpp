@@ -5,7 +5,7 @@ using namespace std;
 vector <int> adj[1005];
 bool check[1005];
 int u, n, m;
-vector <pair<int, int>> v;
+vector <pair<int, int>> v; 
 
 void bfsTree(int u){
 	queue <int> q;
