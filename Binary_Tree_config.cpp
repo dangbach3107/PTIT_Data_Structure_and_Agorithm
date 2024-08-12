@@ -10,7 +10,7 @@ struct node{
 	// node (int x){
 	// 	data = x;
 	// 	left = right = NULL;
-	// }
+	// } 
 };
 node *makeNode(int x){
 	node *newNode = new node();
